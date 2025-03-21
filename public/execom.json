@@ -2,29 +2,29 @@
   "2025": [
     {
       "id": 1,
-      "name": "Comming Sooooooon...!",
+      "name": "Coming Sooooooon...!",
       "role": "Let's wait and see",
-      "imgURL": "../../Data/images/AeroCET-Logo.png"
+      "imgURL": "/execom/1.jpg"
     },
     {
       "id": 2,
-      "name": "Comming Sooooooon...!",
+      "name": "Coming Sooooooon...!",
       "role": "Let's wait and see",
-      "imgURL": "../../Data/images/AeroCET-Logo.png"
+      "imgURL": "/execom/2.jpg"
     }
   ],
   "2026": [
     {
       "id": 1,
-      "name": "Comming Sooooooon...!",
+      "name": "Coming Sooooooon...!",
       "role": "Let's wait and see",
-      "imgURL": "../../Data/images/AeroCET-Logo.png"
+      "imgURL": "/execom/1.jpg"
     },
     {
       "id": 2,
-      "name": "Comming Sooooooon...!",
+      "name": "Coming Sooooooon...!",
       "role": "Let's wait and see",
-      "imgURL": "../../Data/images/AeroCET-Logo.png"
+      "imgURL": "/execom/2.jpg"
     }
   ]
 }

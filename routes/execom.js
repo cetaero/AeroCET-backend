@@ -4,26 +4,21 @@ const path = require('path');
 
 const router = express.Router();
 
-// Example Execome Route
-router.get('/execom/:year', (req, res) => {
+router.get('/execom', (req, res) => {
   const filePath = path.join(__dirname, '../public/execom.json');
 
+  // Read the JSON file and send it as a response
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
-      return res.status(500).json({ error: 'Error reading execom data' });
+      console.error('Error reading the file:', err);
+      return res.status(500).json({ error: 'Internal Server Error' });
     }
-
     try {
-      const execomData = JSON.parse(data);
-      const year = req.params.year;
-
-      if (execomData[year]) {
-        res.json(execomData[year]);
-      } else {
-        res.status(404).json({ error: 'Year not found' });
-      }
+      const jsonData = JSON.parse(data);
+      res.json(jsonData);
     } catch (parseError) {
-      res.status(500).json({ error: 'Error parsing execom data' });
+      console.error('Error parsing JSON:', parseError);
+      res.status(500).json({ error: 'Invalid JSON format' });
     }
   });
 });
