@@ -1,15 +1,16 @@
 [
         {
-                "id":1,
-                "heading":"Teachnical Team Recruitment Results",
-                "message":"comming soon",
-                "link":"http://aero.cet.ac.in",
-                "excel":"../../Data/annoucements/1.xlxs"
+            "id": 1,
+            "heading": "Technical Team Recruitment Results",
+            "message": "Coming soon",
+            "link": "http://aero.cet.ac.in",
+            "excel": "../../Data/announcements/1.xlsx"
+        },
+        {
+            "id": 2,
+            "heading": "Management Team Recruitment Results",
+            "message": "Coming soon",
+            "link": "http://aero.cet.ac.in"
         }
-        ,{
-                "id":2,
-                "heading":"Management Team Recruitment Results",
-                "message":"comming soon",
-                "link":"http://aero.cet.ac.in"
-        }
-]
+    ]
+    
