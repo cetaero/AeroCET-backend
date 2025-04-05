@@ -4,26 +4,23 @@ const path = require('path');
 
 const router = express.Router();
 
-// Achievements Route - Dynamically Fetch Images from "public/achievements"
-router.get('/achievements', (req, res) => {
-  const achievementsDir = path.join(__dirname, '../public/achievements');
+// Announcements Route
+router.get('/announcements', (req, res) => {
+  const filePath = path.join(__dirname, '../public/announcements.json');
 
-  fs.readdir(achievementsDir, (err, files) => {
+  fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
-      console.error('Error reading achievements directory:', err);
-      return res.status(500).json({ error: 'Error reading achievements directory' });
+      console.error('Error reading announcements.json:', err);
+      return res.status(500).json({ error: 'Error reading announcements data' });
     }
 
-    // Filter only image files (optional)
-    const imageFiles = files.filter(file => /\.(jpg|jpeg|png|gif)$/i.test(file));
-
-    // Map files to URLs (assuming your Express app serves `public` statically)
-    const achievements = imageFiles.map((file, index) => ({
-      id: index + 1,
-      image: `/achievements/${file}` // Relative path (served statically)
-    }));
-
-    res.json(achievements);
+    try {
+      const announcements = JSON.parse(data);
+      res.json(announcements);
+    } catch (parseError) {
+      console.error('Error parsing announcements.json:', parseError);
+      res.status(500).json({ error: 'Error parsing announcements data' });
+    }
   });
 });
 

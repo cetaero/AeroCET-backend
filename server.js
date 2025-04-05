@@ -1,7 +1,9 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
+const path = require('path');  // <-- Added import for path
 
+// Import routes
 const galleryRoutes = require('./routes/gallery'); 
 const contactRoutes = require('./routes/contact');  
 const achievementsRoutes = require('./routes/achievements');  
@@ -14,7 +16,8 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(cors());
-app.use(express.static('public'));
+// Serve static files from the 'public' folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 // API Routes
 app.use('/api', contactRoutes);
@@ -35,7 +38,7 @@ app.get('/', (req, res) => {
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color:rgb(255, 123, 0);
+            background-color: rgb(255, 123, 0);
             font-family: Arial, sans-serif;
           }
           h1 {

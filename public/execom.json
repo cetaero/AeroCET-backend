@@ -2,29 +2,17 @@
   "2025": [
     {
       "id": 1,
-      "name": "Coming Sooooooon...!",
-      "role": "Let's wait and see",
+      "name": "Test@name",
+      "role": "test@role",
       "imgURL": "/execom/1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Coming Sooooooon...!",
-      "role": "Let's wait and see",
-      "imgURL": "/execom/2.jpg"
     }
   ],
   "2026": [
     {
       "id": 1,
-      "name": "Coming Sooooooon...!",
-      "role": "Let's wait and see",
+      "name": "Test@name",
+      "role": "test@role",
       "imgURL": "/execom/1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Coming Sooooooon...!",
-      "role": "Let's wait and see",
-      "imgURL": "/execom/2.jpg"
     }
   ]
 }
