@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get('/achievements', (req, res) => {
   const folderPath = path.join(__dirname, '../public/achievements');
+  //test
 
   fs.readdir(folderPath, (err, files) => {
     if (err) {
