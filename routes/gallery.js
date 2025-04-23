@@ -11,12 +11,9 @@ router.get('/gallery', async (req, res) => {
       max_results: 50
     });
 
-    console.log('Cloudinary Response:', result);
-
     const images = result.resources.map((resource) => resource.secure_url);
     res.json({ images });
   } catch (error) {
-    console.error('Error fetching images:', error);
     res.status(500).json({ error: 'Failed to fetch images', details: error.message });
   }
 });
