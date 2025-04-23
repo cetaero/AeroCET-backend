@@ -1,16 +1,44 @@
 {
   "2025": [
-    {
-      "id": 1,
-      "name": "Test@name",
-      "role": "test@role",
-      "imgURL": "/execom/1.jpg"
-    }
+    { "id": 1, "name": "SUPARNA", "role": "Captain", "imgURL": "/execom/1.jpg" },
+    { "id": 2, "name": "AMALA", "role": "Vice Captain", "imgURL": "/execom/2.jpg" },
+    { "id": 3, "name": "ATHUL A R", "role": "Team Manager", "imgURL": "/execom/3.jpg" },
+    { "id": 35, "name": "PRAVEEN A", "role": "Staff Advance", "imgURL": "/execom/35.jpg" },
+    { "id": 4, "name": "KRISHNAN", "role": "FW Lead", "imgURL": "/execom/4.jpg" },
+    { "id": 5, "name": "JESS", "role": "MR Lead", "imgURL": "/execom/5.jpg" },
+    { "id": 6, "name": "RISHI", "role": "R&D Lead", "imgURL": "/execom/6.jpg" },
+    { "id": 7, "name": "S SIDHARTH", "role": "WebMaster", "imgURL": "/execom/7.jpg" },
+    { "id": 10, "name": "NANDU", "role": "Spons. Head", "imgURL": "/execom/10.jpg" },
+    { "id": 8, "name": "VISHNUPRIYA", "role": "Technical Design Head", "imgURL": "/execom/8.jpg" },
+    { "id": 9, "name": "CLINT", "role": "Design Head", "imgURL": "/execom/9.jpg" },
+    { "id": 11, "name": "ARJUN", "role": "Avionics Lead", "imgURL": "/execom/11.jpg" },
+    { "id": 26, "name": "DEEPAK", "role": "Media Head", "imgURL": "/execom/26.jpg" },
+    { "id": 13, "name": "RINTO", "role": "FPV Lead", "imgURL": "/execom/13.jpg" },
+    { "id": 17, "name": "ABHINAV", "role": "Documentation", "imgURL": "/execom/17.jpg" },
+    { "id": 12, "name": "PRANAV", "role": "Fabrication", "imgURL": "/execom/12.jpg" },
+    { "id": 14, "name": "MISHAL", "role": "Electrical", "imgURL": "/execom/14.jpg" },
+    { "id": 15, "name": "MEDHA", "role": "Treasurer", "imgURL": "/execom/15.jpg" },
+    { "id": 16, "name": "DEVIKA", "role": "CFD", "imgURL": "/execom/16.jpg" },
+    { "id": 18, "name": "SOORAJ", "role": "FPV", "imgURL": "/execom/18.jpg" },
+    { "id": 19, "name": "MITHUN", "role": "Stability & Control", "imgURL": "/execom/19.jpg" },
+    { "id": 20, "name": "DEVADARSH", "role": "Structural Analysis", "imgURL": "/execom/20.jpg" },
+    { "id": 21, "name": "ANNA", "role": "Research & Development", "imgURL": "/execom/21.jpg" },
+    { "id": 22, "name": "GAUTHAM", "role": "Software", "imgURL": "/execom/22.jpg" },
+    { "id": 23, "name": "SRANAV", "role": "Software", "imgURL": "/execom/23.jpg" },
+    { "id": 24, "name": "AISWARYA", "role": "Lead Pilot", "imgURL": "/execom/24.jpg" },
+    { "id": 25, "name": "SABARI", "role": "Fabrication", "imgURL": "/execom/25.jpg" },
+    { "id": 29, "name": "DHEERAJ", "role": "Design", "imgURL": "/execom/29.jpg" },
+    { "id": 30, "name": "JNANESH", "role": "Avionics", "imgURL": "/execom/30.jpg" },
+    { "id": 31, "name": "RITVIK", "role": "Analysis", "imgURL": "/execom/31.jpg" },
+    { "id": 32, "name": "AFRA", "role": "Media Team", "imgURL": "/execom/32.jpg" },
+    { "id": 33, "name": "ASHWIN", "role": "Media Team", "imgURL": "/execom/33.jpg" },
+    { "id": 34, "name": "AKSHAYA", "role": "Media Team", "imgURL": "/execom/34.jpg" }
+
   ],
   "2026": [
     {
       "id": 1,
-      "name": "Test@name",
+      "name": "TEST@NAME",
       "role": "test@role",
       "imgURL": "/execom/1.jpg"
     }
